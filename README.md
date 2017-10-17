@@ -49,12 +49,27 @@ server {
              proxy_set_header    X-Forwarded-for $remote_addr;
              proxy_connect_timeout 300;
              port_in_redirect off;
-             proxy_pass http://127.0.0.1;
+             proxy_pass http://127.0.0.1:8888;
        }
 
 
 
 }
+
+
+
+
+  Installing scikit-learn
+pip3 install -U scikit-learn
+pip install -U scikit-learn
+
+
+
+
+
+
+
+
 
 
 .
